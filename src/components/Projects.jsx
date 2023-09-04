@@ -1,11 +1,10 @@
-import React from "react";
 import { projectsData } from "./data";
 import styles from "./projects.module.scss"
 
 export function Projects() {
   return (
     <div className={styles.divProject}>
-      <h2 className={styles.titreProject}>Mes projets :</h2>
+      <h1 className={styles.titreProject}>Mes projets :</h1>
       {projectsData.map((project, index) => (
         <div className={styles.hoverButtonProjects} key={index}>
           <h3 className={styles.nameProject}>{project.name}</h3>
@@ -25,9 +24,9 @@ export function Projects() {
               </li>
             ))}
           </ul>
-          <p className={styles.descriptionProject}>Description : {project.description}</p>
           <p className={styles.nameProject}>Date : {project.date}</p>
-          <p className={styles.TechnologiesProject}>Technologies :</p>
+          <p className={styles.descriptionProject}>Description : {project.description}</p>
+          <p className={styles.technologiesProject}>Technologies :</p>
           <ul className={styles.ulTechProject}>
             {project.technologie.map((tech, techIndex) => (
               <li className={styles.liTechProject} key={techIndex}>

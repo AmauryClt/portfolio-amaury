@@ -7,8 +7,11 @@
 }
 
 .hoverButtonProjects {
-    margin-bottom: 1rem;
-    background-color: rgb(15, 23, 42);
+  margin-bottom: 1rem;
+  background-color: rgb(15, 23, 42);
+  padding: 10px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   transition: background-color 0.3s, opacity 0.3s;
 
@@ -22,8 +25,33 @@
   }
 }
 
+.nameProject {
+  padding-bottom: 4px; 
+}
+
+.ulLienProject {
+  padding-bottom: 4px; 
+}
+
+.liLienProject {
+  padding-bottom: 4px; 
+}
+
+.descriptionProject {
+  padding-bottom: 4px; 
+}
+
+.dateProject {
+  padding-bottom: 4px;
+}
+
+.technologiesProject {
+  padding-bottom: 4px; 
+}
+
 .ulTechProject {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content:flex-start;
 }
@@ -31,4 +59,8 @@
 .liTechProject {
   background-color: rgb(21, 45, 49);
   color: rgb(94 234 212);
+  padding: 7px 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }

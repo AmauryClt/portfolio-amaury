@@ -7,8 +7,12 @@
 }
 
 .hoverButtonExperience {
-    margin-bottom: 1rem;
-    background-color: rgb(15, 23, 42);
+  margin-bottom: 1rem;
+  background-color: rgb(15, 23, 42);
+  padding: 10px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
   border-radius: 10px;
   transition: background-color 0.3s, opacity 0.3s;
 
@@ -22,6 +26,30 @@
   }
 }
 
+.nameExperience {
+  padding-bottom: 4px; 
+}
+
+.ulLienExperience {
+  padding-bottom: 4px; 
+}
+
+.liLienExperience {
+  padding-bottom: 4px; 
+}
+
+.descriptionExperience {
+  padding-bottom: 4px; 
+}
+
+.dateExperience {
+  padding-bottom: 4px;
+}
+
+.technologiesExperience {
+  padding-bottom: 4px; 
+}
+
 .ulTechExperience {
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +60,8 @@
 .liTechExperience {
   background-color: rgb(21, 45, 49);
   color: rgb(94, 234, 212);
+  padding: 7px 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
