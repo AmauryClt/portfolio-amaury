@@ -1,0 +1,51 @@
+.headerBackGroundcolor {
+  
+  background-color: rgb(15 23 42);
+  height: 150vh;
+  width: 50%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.headerPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position:sticky;
+  top: 6rem;
+  z-index: 100;
+}
+
+.h1Header {
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: .025em;
+  cursor: pointer;
+}
+
+.h2Header {
+  margin-top: 0.75rem;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  letter-spacing: .025em;
+  font-weight: 500;
+}
+
+.paragrapheHeader {
+  font-size: 1.25rem;
+  max-width: 20rem;
+  margin-top: 1rem;
+  line-height: 1;
+  letter-spacing: .025em;
+}
+
+@media screen and (max-width: 1024px) {
+  .headerBackGroundcolor {
+  
+    background-color: rgb(15 23 42);
+    height: 20vh;
+    width: 50%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}

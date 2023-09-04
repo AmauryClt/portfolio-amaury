@@ -1,0 +1,34 @@
+.divProject {
+    padding-bottom: 5rem;
+}
+
+.titreProject {
+    margin-bottom: 2rem;
+}
+
+.hoverButtonProjects {
+    margin-bottom: 1rem;
+    background-color: rgb(15, 23, 42);
+  border-radius: 10px;
+  transition: background-color 0.3s, opacity 0.3s;
+
+
+  &:hover {
+    background-color: rgba(42, 56, 88, 0.7);
+
+    & h3 {
+      color: rgb(94, 234, 212); 
+    }
+  }
+}
+
+.ulTechProject {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
+.liTechProject {
+  background-color: rgb(21, 45, 49);
+  color: rgb(94 234 212);
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  list-style: none;
+}
+
+p,
+a,
+li,
+ul {
+  color: #94a3b8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e2e8f0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.portfolioForm {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(15 23 42);
+}
+
+.mediaForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  min-height: 100vh;
+  height: 100%;  
+}
+
+@media screen and (max-width: 1024px) {
+
+  .portfolioForm {
+    width: 100%;
+    height: 100%h;
+    background-color: rgb(15 23 42);
+  }
+
+  .mediaForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
