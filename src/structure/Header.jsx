@@ -7,9 +7,8 @@ export default function Header() {
       <h1 className={styles.h1Header}>Amaury Clot</h1>
       <h2 className={styles.h2Header}>Développeur Web</h2>
       <p className={styles.paragrapheHeader}>
-      Vous trouverez sur ce site les liens vers mes créations ainsi que les technologies que j'ai utilisées.
+      Vous trouverez sur ce site les liens vers mes créations ainsi que les technologies que j&apos;ai utilisées.
       </p>
-      
       </div>
     </header>
   );
