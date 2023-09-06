@@ -11,9 +11,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position:sticky;
-  top: 6rem;
-  z-index: 100;
 }
 
 .h1Header {
@@ -41,11 +38,10 @@
 
 @media screen and (max-width: 1024px) {
   .headerBackGroundcolor {
-  
     background-color: rgb(15 23 42);
     height: 20vh;
-    width: 50%;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

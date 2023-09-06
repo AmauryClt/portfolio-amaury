@@ -14,5 +14,26 @@
 @media screen and (max-width: 1024px) {
   .mainHomeScss {
     width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .mainHomeScss {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 22rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .mainHomeScss {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 24rem;
   }
 }

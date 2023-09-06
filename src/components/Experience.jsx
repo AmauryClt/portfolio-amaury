@@ -12,7 +12,7 @@ export function Experience () {
             {experience.lien.map((lie, lieIndex) => (
               <li className={styles.liLienExperience} key={lieIndex}>
               <a href={lie} target="_blank" rel="noopener noreferrer">
-                {lie}
+                Wild Code School
               </a>
             </li>
             ))}
