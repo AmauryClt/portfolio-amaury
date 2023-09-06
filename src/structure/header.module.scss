@@ -1,10 +1,12 @@
 .headerBackGroundcolor {
   
   background-color: rgb(15 23 42);
-  height: 150vh;
+  height: 100vh;
   width: 50%;
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .headerPosition {
@@ -43,5 +45,6 @@
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: relative;
   }
 }
