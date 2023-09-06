@@ -3,7 +3,7 @@
 export const experienceData = [
     {
         name: "WILD CODE SCHOOL",
-        technologie: ["EXPRESS", "PRISMA", "MYSQL", "REACT", "TYPESCRIPT", "SCSS", "JS", "HTML", "CSS", "CYPRESS", "JEST", "CYPRESS"],
+        technologie: ["EXPRESS", "PRISMA", "MYSQL", "REACT", "TYPESCRIPT", "SCSS", "JS", "HTML", "CSS", "CYPRESS", "JEST"],
         lien: ["https://www.wildcodeschool.com/fr-fr/"],
         description: "Depuis 10 ans, la Wild Code School forme des élèves aux métiers de la Tech tout au long de leur vie sur 4 domaines de formation : le Développement Web, la Data & l'IA, l'Infrastructure & la Cybersécurité et le Web Design.",
         date: "23/02/23 - 22/09/23",

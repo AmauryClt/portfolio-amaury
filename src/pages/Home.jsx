@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.divHome}>
       <p className={styles.paragrapheHomeScss}>
         À la fin de l&apos;année 2022, j&apos;ai pris la décision de me réorienter
-        vers un domaine qui suscite ma passion depuis longtemps : l&apos;Internet.
+        vers un domaine qui suscite ma passion depuis longtemps : Internet.
         <br></br><br></br>
         Fort d&apos;une expérience solide dans l&apos;utilisation de l&apos;ordinateur et d&apos;Internet depuis mon plus jeune âge,
         j&apos;ai exploré certains aspects de la création de sites web au cours de mes années en tant que commercial.
